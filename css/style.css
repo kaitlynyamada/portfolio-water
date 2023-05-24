@@ -42,3 +42,20 @@ hero
 .hero-content {
     padding: 50px 30px;
 }
+
+.hero-underline {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.hero-underline--content {
+    width: 60%;
+}
+
+.hero-underline--content_title {
+    border-bottom: 4px solid var(--color-violet);
+}
+
+.hero-underline--content_writing {
+    padding-top: 1rem;
+}
