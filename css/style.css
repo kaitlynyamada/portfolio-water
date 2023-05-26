@@ -40,7 +40,13 @@ hero
 */
 
 .hero-content {
-    padding: 50px 30px;
+    padding: 2rem 2rem;
+    width: 70%;
+}
+
+.hero-content h1 strong {
+    font-size: 96px;
+    color: var(--color-violet);
 }
 
 .hero-underline {
@@ -59,3 +65,24 @@ hero
 .hero-underline--content_writing {
     padding-top: 1rem;
 }
+
+/* 
+=========================================================================
+overview
+========================================================================= 
+*/
+.overview-underline {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem 0rem;
+}
+
+.overview-underline--content {
+    text-align: right;
+    width: 80%;
+    border-bottom: 4px solid var(--color-violet);
+}
+
+.overview-content {
+    padding: 2rem;
+    width: 60%;
